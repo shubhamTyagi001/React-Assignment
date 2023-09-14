@@ -1,0 +1,86 @@
+.section-padding {
+  padding: 100px 0;
+}
+
+.testimonial .white-title h2 {
+  color: #fff;
+}
+
+[data-aos^="fade"][data-aos^="fade"].aos-animate {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.pack_image {
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.single_package .package-hover {
+  padding: 30px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.rating {
+  margin-bottom: 3px;
+}
+
+package-hover i {
+  color: #fec42d;
+}
+
+.time_zone {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.single_package {
+  margin: 0 15px 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
+
+.single_package a {
+  padding: 10px 25px;
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.prevent .slick-slide > div {
+  margin: 0 10px;
+}
+.prevent .slick-list {
+  margin: 0 -10px;
+}

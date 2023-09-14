@@ -1,0 +1,40 @@
+.single_gallery {
+  position: relative;
+}
+.single_gallery img {
+  max-width: 100%;
+
+  height: 150px;
+  border: inherit !important;
+}
+
+.gallery_enlarge_icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    #f05942,
+    #ed4f42,
+    #ed4745,
+    #eb4149,
+    #ea3248
+  );
+  border-radius: 50%;
+  text-align: center;
+}
+
+.single_gallery h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #f05942;
+  z-index: 99;
+  font-size: 12px;
+  background: #fff;
+  padding: 5px 12px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}

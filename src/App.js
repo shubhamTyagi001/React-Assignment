@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Services from "./components/Services/Services";
+import Chooseus from "./components/Chooseus/Chooseus";
+import Details from "./components/Details/Details";
+import Popular from "./components/Popular/Popular";
+import Ourbest from "./components/Ourbest/Ourbest";
+import Gallery from "./components/Gallery/Gallery";
+import Contuctus from "./components/Contuctus/Contuctus";
+import Footer from "./components/Footer/Footer";
+import Costumer from "./components/Costumers/Costumer";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Services />
+      <Chooseus />
+      <Details />
+      <Popular />
+      <Ourbest />
+      <Gallery />
+      <Contuctus />
+      <Costumer />
+      <Blog />
+      <Footer />
+    </>
   );
 }
 

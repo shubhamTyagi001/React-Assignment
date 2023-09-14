@@ -1,0 +1,43 @@
+.section-padding {
+  padding: 100px 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.single-project-complete {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-left: 30px;
+}
+.single-project-complete i {
+  font-size: 41px;
+  color: #f05942;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.single-project-complete h3 {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 0;
+  color: #727272;
+}
+
+[class^="icofont-"],
+[class*=" icofont-"] {
+  font-family: "IcoFont" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}

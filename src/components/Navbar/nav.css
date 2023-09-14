@@ -1,0 +1,180 @@
+.header_right {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  width: auto;
+}
+#main-menu {
+  margin-top: 17px;
+}
+#main-menue {
+  margin-top: 17px;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-menue li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#main-menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
+}
+
+#main-menu ul li a {
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  transition: 0.5s;
+}
+
+#main-menue ul li a {
+  color: black;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  transition: 0.5s;
+}
+
+.site-logo {
+  width: 130px;
+  height: auto;
+}
+
+.visible {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.single_home_slide {
+  height: 750px;
+}
+
+.hero-text {
+  padding-top: 250px;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 5;
+}
+
+.hero-text p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.btn-home-bg {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  padding: 15px 35px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  font-weight: 700;
+}
+
+.bg-faded {
+  background-color: transparent;
+  transition: all 0.5s ease 0s;
+}
+
+.site-navigation {
+  background-color: white;
+  transition: all 0.5s ease 0s;
+}
+
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+
+.slicknav_menu {
+  font-size: 16px;
+  box-sizing: border-box;
+  background: transparent;
+  padding: 0;
+}
+
+.slicknav_nav_icon {
+  color: #f05942;
+  font-size: 24px;
+}
+
+/* .slicknav_nav {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875em;
+  list-style: none;
+  overflow: hidden;
+} */
+
+.slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+.slicknav_nav ul {
+  display: block;
+}
+
+.custom-offcanvas li a {
+  color: black;
+
+  margin: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+  #mobile_menu {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+  }
+}
+
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
